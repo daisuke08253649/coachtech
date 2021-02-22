@@ -1,0 +1,472 @@
+@charset "UTF-8" ;
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*header*/
+.header{
+    height:60px;
+    background-color:#000;
+}
+
+.header-div{
+    display:flex;
+    justify-content: space-between;  
+}
+
+#header-p{
+    color:#fff;
+    padding:20px;
+}
+
+.header-nav ul{
+    display:flex;
+    padding:20px;
+}
+
+.item a{
+    text-decoration:none;
+    color:#fff;
+    margin:0 10px;
+}
+
+/*main*/
+.main-wrap{
+    height:600px;
+    background-image: url("../img/eyecatch.jpg");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    
+
+}
+
+
+#main-title{
+    position:absolute;
+    top:50%;
+    left:25%;
+    transform:translate(-50%,-50%);
+    font-size:50px;
+    color:#fff;
+    
+}
+
+
+.news-dt-dd{
+    background-color:#fff;
+    padding:15px;
+    padding-top:14px;
+    line-height:1.0em;
+    position:relative;
+    top:90%;
+    left:200%;
+}
+
+.news-text{
+    background:#000;
+    text-align:center;
+    padding:21px;
+    margin:0 130px;
+    position:relative;
+    top:80%;
+    left:270.5%;
+}
+
+#news-a{
+    text-decoration:none;
+    color:#fff;
+}
+
+
+.main-div{
+    background-color:#000;
+    display:flex;
+    padding:150px 0;
+    position:relative;
+}
+
+.main-div,
+.text02 h3{
+    color:#fff;
+
+}
+
+.text02 p{
+    color:#fff;
+}
+
+.main-a{
+    text-decoration:none;
+    border:1px solid #fff;
+    background-color:#fff;
+    color:#000;
+    padding:8px 20px;
+}
+
+.text02 h3{
+    font-size:25px;
+    margin:25px 0;
+}
+
+.text02 p{
+    line-height:1.5em;
+    padding:10px 0;
+    margin:10px 0 25px 0;
+}
+
+.text02{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+.image  {
+    margin-left:60%;
+    margin-bottom:-12%;
+    
+}
+
+.service{
+    background-color:#cccccc;
+    margin:100px 0;
+}
+
+.service-h2{
+    text-align:center;
+    font-size:25px;
+    padding:10px 0;
+}
+
+.web{
+    background-color:#fff;
+    width:40%;
+    padding:70px 50px;
+    position:relative;
+    top:90px;
+    left:200px;
+}
+
+.web h3, p{
+    margin-bottom:20px;
+    padding-left:30px;
+}
+
+#web-p2{
+    line-height:1.5em;
+}
+
+.main-a2{
+    border:1px solid #000;
+    text-decoration:none;
+    color:#000;
+    padding:7px 35px;
+    margin-left:68%;   
+}
+
+#image2{
+    margin-left:51.6%;
+    margin-top:-20%;
+    
+}
+
+.main-web{
+    background-color:#fff;
+    width:40%;
+    padding:70px 50px;
+    margin-right:30px;
+    position:relative;
+    top:400px;
+    left:38%;
+    
+}
+
+h4{
+    margin-left:30px;
+    margin-bottom:20px;
+}
+
+#web-p3{
+    line-height:1.5em;
+}
+
+.main-a3{
+    border:1px solid #000;
+    text-decoration:none;
+    color:#000;
+    padding:7px 35px;
+    margin-left:69%;
+}
+
+#main-image{
+    padding-bottom:10%;
+    
+}
+
+
+.position{
+    display:flex;
+    justify-content:space-between;
+}
+
+.company{
+    background-image:url(../img/company.jpeg);
+    width:720px;
+    height:150px;
+    position:relative;
+}
+
+.company-a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    line-height:1.5em;
+}
+
+#company-text{
+    font-size:24px;
+    
+}
+
+#company-text2{
+    font-size:14px;
+    margin-left:28px;
+}
+
+.recruit{
+    background-image:url(../img/recruit.jpg);
+    width:720px;
+    height:150px;
+    position:relative;
+}
+
+.recruit-a{
+    text-decoration:none;
+    color:#fff;
+    font-weight:bold;
+    position:relative;
+    top:33%;
+    left:44%;
+    transform:translate(-50%, -50%);
+    line-height:1.5em;
+}
+
+#recruit-text{
+    font-size:24px;
+
+}
+
+#recruit-text2{
+    font-size:14px;
+    margin-left:17px;
+}
+
+
+.faq-a{
+    text-decoration:none;
+    color:#fff;
+    
+    
+    
+}
+
+.faq{
+    background-color:#000;
+    height:90px;
+    width:60%;
+    margin:90px 300px;
+    
+}
+
+#faq-position{
+    font-size:30px;
+    font-weight:bold;
+    position:relative;
+    top:30px;
+    left:30px;
+
+}
+
+#faq-text{
+    position:relative;
+    top:7px;
+    left:45%;
+}
+
+.contact{
+    background-image:url(../img/contact-bg.jpg);
+    color:#fff;
+    text-align:center;
+    padding:110px 0;
+    line-height:1.5em;
+}
+
+.contact-h2{
+    font-size:24px;
+    margin-bottom:9px;
+}
+
+.contact-h3{
+    font-size:12px;
+    margin-bottom:20px;
+}
+
+#contact-p2{
+    font-size:28px;
+}
+
+.contact-a{
+    text-decoration:none;
+    color:#fff;
+    border:1px solid #fff;
+    padding:6px 23px;
+    
+}
+
+.footer{
+    background:#000;
+    padding:15px 0;
+}
+
+
+.footer-link{
+    display:flex;
+    justify-content:space-between;
+}
+
+.footer-p{
+    color:#fff;
+    margin-top:13px;
+}
+
+.footer-li{
+    list-style:none;
+    margin-top:13px;
+    margin-right:25px;
+}
+
+.footer a{
+    text-decoration:none;
+    color:#fff;
+}
+
+.footer-ul{
+    display:flex;
+}
+
+
+
+
+small{
+    color:#fff;
+    font-size:12px;
+    margin-left:41%;
+}
