@@ -156,24 +156,30 @@ input, select {
 }
 
 
+
 .news-dt-dd{
     background-color:#fff;
     padding:15px;
     padding-top:14px;
+    margin-bottom:0;
     line-height:1.0em;
-    position:relative;
-    top:90%;
-    left:200%;
+    
+    
+}
+
+.news{
+    display:flex;
+    margin-left:65.5%;
+    margin-top:35%;
 }
 
 .news-text{
     background:#000;
     text-align:center;
     padding:21px;
-    margin:0 130px;
-    position:relative;
-    top:80%;
-    left:270.5%;
+    margin-left:0;
+    margin-bottom:0%;
+    
 }
 
 #news-a{
@@ -228,6 +234,7 @@ input, select {
 .image  {
     margin-left:60%;
     margin-bottom:-12%;
+    margin-right:0;
     
 }
 
@@ -246,6 +253,7 @@ input, select {
     background-color:#fff;
     width:40%;
     padding:70px 50px;
+    margin-left:0;
     position:relative;
     top:90px;
     left:200px;
@@ -397,6 +405,7 @@ h4{
 
 #faq-text{
     position:relative;
+    width:100px;
     top:7px;
     left:45%;
 }
