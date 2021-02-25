@@ -232,10 +232,9 @@ input, select {
 }
 
 .image  {
-    margin-left:60%;
-    margin-bottom:-12%;
-    margin-right:0;
-    
+    position:relative;
+    top:200px;
+    left:60%;
 }
 
 .service{
@@ -277,7 +276,8 @@ input, select {
 }
 
 #image2{
-    margin-left:51.6%;
+    display:block;
+    margin-left:auto;
     margin-top:-20%;
     
 }
