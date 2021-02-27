@@ -530,17 +530,31 @@ body {
 
 .service-content{
   flex-wrap:wrap;
+
 }
 
 .service-img,
 .service-content_inner{
   width:80%;
+  position:static;
+  margin:auto;
 }
+
 
 .recruit-company flex{
   flex-wrap:wrap;
 }
 
+.recruit-company_size{
+  width:80%;
+  margin:0 auto;
+}
+
+
+.footer-bar
+.header-logo{
+  margin:0 auto;
+}
 
 
 
