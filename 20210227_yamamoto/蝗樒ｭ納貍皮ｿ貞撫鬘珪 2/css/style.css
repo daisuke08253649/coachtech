@@ -528,26 +528,33 @@ body {
   display:none;
 }
 
+.news-flex{
+  margin-right:10px;
+}
+
+.mission-content{
+  margin:0 auto;
+}
+
 .service-content{
   flex-wrap:wrap;
-
+  margin:-20px;
 }
 
 .service-img,
 .service-content_inner{
+  
   width:80%;
   position:static;
   margin:auto;
 }
-
 
 .recruit-company flex{
   flex-wrap:wrap;
 }
 
 .recruit-company_size{
-  width:80%;
-  margin:0 auto;
+  width:100%;
 }
 
 
