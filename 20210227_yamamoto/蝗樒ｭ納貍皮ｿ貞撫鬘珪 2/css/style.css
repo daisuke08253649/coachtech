@@ -557,6 +557,11 @@ body {
   width:100%;
 }
 
+.mission-content{
+  padding-left:static;
+  justify-content:center;
+}
+
 
 .footer-bar
 .header-logo{
