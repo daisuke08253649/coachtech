@@ -264,9 +264,8 @@ body {
   font-size: 20px;
 }
 
-main,
 #firstview {
-  height: 100%;
+  height: 500px;
   background: url(./assets/img/eyecatch.jpg) no-repeat;
   background-size:cover;
   background-position: center;
