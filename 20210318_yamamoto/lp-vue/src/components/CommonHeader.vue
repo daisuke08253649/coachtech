@@ -1,6 +1,5 @@
 <template>
-  <div id="firstview">
-      <header id="top-header">
+    <header id="top-header">
         <div class="flex">
           <h1 class="header-logo">estra inc.</h1>
           <nav class="header-nav">
@@ -31,17 +30,7 @@
             </ul>
         </nav>
         </header>
-        <p class="catchcopy">機械ではできない仕事を</p>
-      <div class="news flex">
-        <div class="news-content">
-          <p class="news_date">2019/01/01</p>
-          <p class="news_title">
-            ニュースタイトルがここには入ります。3月の決算報告書
-          </p>
-        </div>
-        <div class="news-icon">news</div>
-      </div>
-    </div>
+  
 </template>
 
 <script>
@@ -86,55 +75,8 @@ export default{
   color: #fff;
 }
 
-#firstview {
-  height: 100%;
-  background: url(../assets/img/eyecatch.jpg) no-repeat;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-}
 
-.catchcopy {
-  position: absolute;
-  top: 60%;
-  left: 10%;
-  font-size: 60px;
-  font-style: italic;
-  font-weight: bold;
-  color: #fff;
-  line-height: 1;
-}
 
-/*------------------------*/
-/*         news           */
-/*------------------------*/
-.news {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-}
-.news-content {
-  background: #fff;
-  width: 80%;
-  height: 70px;
-}
-
-.news_date {
-  padding-left: 5px;
-}
-
-.news_title {
-  padding: 0 15px;
-}
-.news-icon {
-  background: #000;
-  width: 20%;
-  height: 70px;
-  line-height: 70px;
-  text-align: center;
-  color: #fff;
-}
 
 
 @media screen and (max-width:768px){
