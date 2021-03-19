@@ -264,13 +264,14 @@ body {
   font-size: 20px;
 }
 
-
+main,
 #firstview {
   height: 100%;
-  background: url(../assets/img/eyecatch.jpg) no-repeat;
-  background-size: cover;
+  background: url(./assets/img/eyecatch.jpg) no-repeat;
+  background-size:cover;
   background-position: center;
   position: relative;
+  
 }
 
 .catchcopy {
